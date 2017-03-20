@@ -18,9 +18,6 @@ always_allow_html: yes
 
 This paper will be a survival analysis based on Roman Emperors (from 26 before JC to 395 AD), for which data was found on this website: https://public.opendatasoft.com/explore/dataset/roman-emperors/table/?sort=index
 
-```{r, include=FALSE}
-setwd("C:/Users/galdo/OneDrive/OneDrive-Documents/DSTI/15 - Survival Analysis using R/SurvivalRomanEmperors")
-```
 ## Preparation
 Load libraries (survival and the ones I'm used to working with) and import data
 ```{r, message=FALSE, warning=FALSE}
