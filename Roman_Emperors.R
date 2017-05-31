@@ -18,8 +18,8 @@ library(lubridate) # because the dates stretch over AD and BC eras, we need lubr
 library(survminer) # for plotting survival curves
 library(plotly) # for other plots
 
-# emperors <- fread("https://public.opendatasoft.com/explore/dataset/roman-emperors/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true", stringsAsFactors = TRUE, check.names = TRUE) #download file straight from sourcepage
-emperors <- fread("roman-emperors.csv", stringsAsFactors = TRUE, check.names = TRUE) #use previously downloaded file
+emperors <- fread("https://public.opendatasoft.com/explore/dataset/roman-emperors/download/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true", stringsAsFactors = TRUE, check.names = TRUE) #download file straight from sourcepage
+# emperors <- fread("roman-emperors.csv", stringsAsFactors = TRUE, check.names = TRUE) #use previously downloaded file
 
 
 #######__Cleaning & formatting__
